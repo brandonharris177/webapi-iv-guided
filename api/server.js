@@ -3,6 +3,8 @@ const helmet = require('helmet');
 
 const Shoutouts = require('../data/shoutouts-model.js');
 
+console.log('enviornment:', process.env.NODE_ENV)
+
 const server = express();
 
 server.use(helmet());
